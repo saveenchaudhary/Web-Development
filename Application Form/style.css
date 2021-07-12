@@ -1,0 +1,47 @@
+*{
+    padding:0;
+    margin:0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    font-size: 30px;
+    margin: 10px 20px;   
+    list-style: none;
+}
+#navbar ul{
+    display:flex;
+    justify-content: center;
+}
+main{
+    margin:auto;
+    width: 1000px;
+    padding: 50px;
+    border:2px solid red;
+}
+h1{
+    text-align: center;
+    
+}
+.head{
+    /* border:2px solid blue; */
+    background-color: rgb(187, 239, 255);
+    margin: 15px 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+span{
+    display: block;
+}
+input{
+    border-radius: 10px;
+    width: 98.8%;
+    padding: 5px 5px;
+}
+.head:hover{
+    background-color: rgb(138, 255, 230);
+    box-shadow: -7px -6px 20px 0px rgb(255 89 59); 
+    transition: 1s;
+
+}

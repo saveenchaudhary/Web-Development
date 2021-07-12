@@ -1,0 +1,77 @@
+/* Reset the Property */
+*{
+    margin: 0;
+    padding:0;
+}
+
+/* Navigation Bar */
+#navbar{
+    display: flex;
+}
+
+.nav-list{
+    width: 50%;
+    background-color: yellowgreen;
+    display: flex;
+}
+
+.logo{
+    width:28%;
+}
+.logo img{
+    width:40%;
+}
+
+.nav-list li{
+    list-style: none;
+    margin: 18px 40px;
+
+    
+
+}
+.nav-list li a{
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+
+}
+
+.rightNav{
+    text-align: right;
+    width: 50%;
+    background-color: coral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rightNav input{
+    position: relative;
+    right: -167px;
+    padding: 8px 6px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: .5s;
+}
+.rightNav input:hover{
+    padding : 8px 13px;
+}
+.rightNav button{
+    transition: .5s;
+    position: relative;
+    right:-180px;
+    border:none;
+    border-radius: 5px;
+    padding:9px 11px;
+    cursor: pointer;
+    background-color: rgb(72, 136, 255);
+    color:white;
+    
+}
+.rightNav button:hover{
+    
+    background-color: rgb(0, 72, 206);
+    color:white
+
+}
+

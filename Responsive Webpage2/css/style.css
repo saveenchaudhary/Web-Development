@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*! _______________________________________________NAVBAR  */
+body::before {
+  content: "";
+  background: url(../static/bg.jpg);
+  background-size: cover;
+  background-position-y: center;
+  height: 400px;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  filter: brightness(0.7);
+}
+
+#navbar {
+  /* background-color: rgb(176 166 255); */
+  background-color: rgb(146 131 132 / 20%);
+  display: flex;
+  width: 100vw;
+  height: 60px;
+  justify-content: space-between;
+}
+#navbar_left {
+  display: flex;
+  /* border: 1px solid red; */
+  align-items: center;
+}
+
+.logo > img {
+  height: 80px;
+  margin: 0 20px;
+  filter:brightness(16)
+}
+#navbar_left > .ul_item {
+  list-style: none;
+  margin: 0 10px;
+}
+#navbar_left > .ul_item > a {
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+  font-family: "Staatliches", cursive;
+}
+
+#navbar_right {
+  display: flex;
+  /* border: 1px solid red; */
+  align-items: center;
+  margin: 0 20px;
+}
+#navbar_right > input[type="search"] {
+  padding: 7px 6px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.288);
+}
+.btn-main {
+  padding: 7px 6px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.288);
+  width: 70px;
+  margin: 5px;
+  font-family: 'Staatliches', cursive;
+}
+
+#navbar_right > input[type="button"]:active {
+  border: 1px solid;
+}
+
+/*!_______________________________________________________SECTION  */
+
+.tagline {
+    padding: 83px 0px 83px 166px;
+}
+.tagline h1 {
+  color: white;
+  font-size: 50px;
+  font-family: "Hind Siliguri", sans-serif;
+}
+.tagline h2 {
+  margin: 3px;
+  color: white;
+  font-size: 20px;
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 100;
+
+}
+.tagline input {
+  margin: 8px 3px;
+  background-color: rgba(0, 0, 255, 0);
+  border: 1px solid;
+  padding: 8px 12px;
+  color: white;
+  border-radius: 3px;
+}
+
+/* _______________________________________________________secondSection */
+
+.mainHeading{
+    text-align: center;
+    font-family: 'Benne', serif;
+
+}
+.mainHeading h1{
+    padding-top: 44px;
+    color:rgb(0, 0, 0);
+    font-size: 44px;
+    
+}
+.mainHeading p{
+    color:rgb(115, 141, 0);
+    font-family: 'Raleway', sans-serif;
+
+}
+
+/* ______________________________________________________________sectionBox */
+.section_box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:10px;
+}
+.item_box{
+    margin:10px 10px;
+    /* border:1px solid black; */
+    height:190px;
+    width: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.item_box img{
+    height:65px;
+}
+.item_box h3{
+    color: #27b6c7;
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 20px;
+}
+.item_box h4{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}

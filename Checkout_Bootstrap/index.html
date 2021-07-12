@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cs/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo_head">
+            <img id="logo" src="bootstrap-logo.svg">
+            <h2 class="head">Checkout form</h2>
+            <p class="para-center">Below is an example form built entirely with Bootstrap’s form controls. Each required
+                form group has a validation state that can be triggered by attempting to submit the form without
+                completing it.</p>
+        </div>
+        <div class="main_container">
+            <div class="your-cart">
+                <h4 class="justify-content-between">
+                    <span class="text_primary">Your Cart</span>
+                    <span>3</span>
+                </h4>
+                <ul>
+                    <li class="list-group-item d-flex justify-content-between lh-sm">
+                        <div>
+                            <h6 class="my-0">Product name</h6>
+                            <small class="text-muted">Brief description</small>
+                        </div>
+                        <span class="text-muted">$12</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between lh-sm">
+                        <div>
+                            <h6 class="my-0">Second product</h6>
+                            <small class="text-muted">Brief description</small>
+                        </div>
+                        <span class="text-muted">$8</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between lh-sm">
+                        <div>
+                            <h6 class="my-0">Third item</h6>
+                            <small class="text-muted">Brief description</small>
+                        </div>
+                        <span class="text-muted">$5</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between bg-light">
+                        <div class="text-success">
+                            <h6 class="my-0">Promo code</h6>
+                            <small>EXAMPLECODE</small>
+                        </div>
+                        <span class="text-success">−$5</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between">
+                        <span>Total (USD)</span>
+                        <strong>$20</strong>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="billing_container">
+                <h4 class="text_primary">Billing address</h4>
+                <form>
+                    <div class="billing">
+                        <div class="billing-item-50">
+                            <label for="">First name</label>
+                            <input type="text" name="" id="">
+                        </div>
+                        <div class="billing-item-50">
+                            <label for="">Last name</label>
+                            <input type="text" name="" id="">
+                        </div>
+                        <div class="billing-item-100">
+                            <label for="">User name</label>
+                            <div class="user_name">
+                                <span class="user_name_span">@</span>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="billing-item-100">
+                            <label for="">Address</label>
+                            <input type="text" name="" id="">
+                        </div>
+                        <div class="billing-item-100">
+                            <label for="">
+                                Address 2
+                                <span class="text-muted">(Optional)</span>
+                            </label>
+                            <input type="text" name="" id="">
+                        </div>
+
+                        <div class="billing-item-5">
+                            <label for="">Country</label>
+                            <input type="text" name="" id="">
+                        </div>
+                        <div class="billing-item-4">
+                            <label for="">State</label>
+                            <input type="text" name="" id="">
+                        </div>
+                        <div class="billing-item-3">
+                            <label for="">ZIP</label>
+                            <input type="text" name="" id="">
+                        </div>
+                        <hr>
+                        <div class="form-checkbox">
+                            <input type="checkbox" name="" id="">
+                            <label for="">Shipping address is the same as my billing address</label>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

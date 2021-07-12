@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple - Calculator</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div id="main-container">
+        <div id="calculator">
+            <div id="result">
+                <div id="user_input">
+                </div>
+                <div id="final_result"></div>
+            </div>
+            <div id="keypad">
+
+                <ul id="items">
+                    <button onclick="clear_()" class="dimmed-white">AC</button>
+                    <button class="dimmed-white">+/-</button>
+                    <button onclick="main('%')" class="dimmed-white">%</button>
+                    <button onclick="main('/')" class="yellow">/</button>
+
+                    <button onclick="main('7')">7</button>
+                    <button onclick="main('8')">8</button>
+                    <button onclick="main('9')">9</button>
+                    <button onclick="main('*')" class="yellow">X</button>
+
+                    <button onclick="main('4')">4</button>
+                    <button onclick="main('5')">5</button>
+                    <button onclick="main('6')">6</button>
+                    <button onclick="main('-')" class="white">-</button>
+
+                    <button onclick="main('1')">1</button>
+                    <button onclick="main('2')">2</button>
+                    <button onclick="main('3')">3</button>
+                    <button onclick="main('+')" class="yellow">+</button>
+
+                    <button onclick="main('0')" class="flat">0</button>
+                    <button onclick="main('.')">.</button>
+                    <button onclick="result()" class="yellow">=</button>
+                </ul>
+
+
+                <!-- Not Working 
+                <ul id="items">
+
+                    <button id="AC" class="dimmed-white">AC</button>
+                    <button id="plus_minus" class="dimmed-white">+/-</button>
+                    <button id="percentage" class="dimmed-white">%</button>
+                    <button class="yellow">/</button>
+
+                    <button>7</button>
+                    <button>8</button>
+                    <button>9</button>
+                    <button class="yellow">X</button>
+                    
+                    <button>4</button>
+                    <button>5</button>
+                    <button>6</button>
+                    <button class="white">-</button>
+                    
+                    <button id="one" onclick="main(one)">1</button>
+                    <button id="two" onclick="main(two)">2</button>
+                    <button id="three" onclick="main(three)">3</button>
+                    <button id="plus" class="yellow" onclick="main(plus)">+</button>
+
+                    <button class="flat">0</button>
+                    <button>.</button>
+                    <button id="equal" class="yellow" onclick="result()">=</button>
+                </ul> 
+            -->
+            </div>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
